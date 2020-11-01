@@ -1,0 +1,24 @@
+html,body{
+    background-color: #000;
+}
+#stil-id{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 0.5s ease;
+}
+#stil-id:hover{
+    background-color: yellow;
+}
+.stil-class{
+    background-color: purple;
+}
+.border-color{
+    border: 1px solid green;
+}
+
+@media screen and (max-width:650px){
+    #stil-id{
+        background-color: blue;
+    }
+}
